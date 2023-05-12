@@ -1,1 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="H3Vq@:)r0]kq-ax4@sOQ" x="0" y="0"></block><block type="device_forever" id="E0CilNkgoTZ{|B*+js]%" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="H3Vq@:)r0]kq-ax4@sOQ" x="90" y="-196"><statement name="HANDLER"><block type="device_pause" id="#vfI3KPEnMszA6,f`B;L"><value name="pause"><shadow type="timePicker" id="8cKw16-o)..Bb%W/oXLJ"><field name="ms">1000</field></shadow></value><next><block type="controls_repeat_ext" id="i.N4th^x2GmL}{@^4.DF"><value name="TIMES"><shadow type="math_whole_number" id="NjX%())*8CIpkfpEuDu="><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="|xWq5ZeS(IFDEp.xe~Li"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="+8YZMZRWo4V!$%K,K}A*"><value name="pause"><shadow type="timePicker" id="7Rbc)p!T461iJba6]bCV"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="xVS#Q~2PCx8dqJH?6^nv"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="DJ%}ny!P@`PFZk?c;*.?"><value name="pause"><shadow type="timePicker" id="Rss@DY}ai1L`5h[W{P#J"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="G]tM`z/=~5OEE|G6^FJa"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="H*}MdGQGN.]ZRbfM@B`*"><value name="pause"><shadow type="timePicker" id="W.PG1SCLl_:NO=?4*xS("><field name="ms">200</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></statement></block><block type="device_forever" id="E0CilNkgoTZ{|B*+js]%" x="518" y="-45"><statement name="HANDLER"><block type="serial_writeline" id="@)FA^L-Isg6;v|lPO++E"><value name="text"><shadow type="text" id="k$tF`/zmG`x5Qyzkp9@/"><field name="TEXT">température</field></shadow></value><next><block type="serial_writenumber" id="J1U%KU_Jxw=%Qev?kO@$"><value name="value"><shadow type="math_number" id="9-uqkm/=}kfnArkK=Nqx"><field name="NUM">0</field></shadow><block type="device_temperature" id="mD:G~GdcGCLwrR(p^7~I"></block></value><next><block type="serial_writeline" id="|d$l71)hf-#OHco*rH^g"><value name="text"><shadow type="text" id="Etx/EeDgZo^UwscHE[XW"><field name="TEXT"></field></shadow></value><next><block type="serial_writeline" id="XyhC@-JkMkWfPHXO9om9"><value name="text"><shadow type="text" id="OBd#S/XAF*^}P*m@5m^m"><field name="TEXT">Intensité lumineuse</field></shadow></value><next><block type="serial_writenumber" id="}{6F=FUOJ}B1jV2XvLdG"><value name="value"><shadow type="math_number" id="|%y0N[p2;Vk0{iX9wN1X"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="3nh_P#zmUJg[{Q@#cini"></block></value><next><block type="serial_writeline" id="^(X+a5.eh,LAIkdD5[wa"><value name="text"><shadow type="text" id=";)[2c~(f|jlD#3N^!]R:"><field name="TEXT"></field></shadow></value><next><block type="serial_writeline" id="eBPduhooz7dHnv5YOr7."><value name="text"><shadow type="text" id="[DR:9F_Wu$Df9[Fw;dc0"><field name="TEXT">niveau sonore</field></shadow></value><next><block type="serial_writenumber" id=".5_iwcJ~)lHI^Q}3)qQL"><value name="value"><shadow type="math_number" id="ySA2;w#SZF2cadS0pI!U"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id="n_)qtQZ~~H1J1$iMOpqw"></block></value><next><block type="serial_writeline" id="K;IpwxChS;q@8(Ja{+#c"><value name="text"><shadow type="text" id="M=#/r@ioeeavW`jLVF;u"><field name="TEXT"></field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
